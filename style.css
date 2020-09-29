@@ -1,0 +1,50 @@
+
+
+/* 
+TO HIDE AND SHOW THINGS: 
+
+    display: block, grid, inline, flex, or none. With none, to the browser, it is completely gone. 
+    visibility
+    opacity
+
+*/
+
+
+span {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+
+    /* display: none;  to the browser, it is literally gone.*/
+    /* visibility: hidden; opposite of hidden is visible */
+    /* opacity: 0; lets you do transitions */
+
+.hideBtn{
+    visibility: hidden;
+}
+
+.dark-mode {
+    background-color:black;
+    color: white;
+}
+
+
+.light-mode {
+    background-color: mistyrose;
+    color: black;
+}
+
+.theme-switcher {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+}
+
+p {
+    visibility: hidden;
+}
+
+.show-p {
+    visibility: visible ;
+}
